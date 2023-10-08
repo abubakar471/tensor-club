@@ -1,4 +1,5 @@
-import { Button } from "@mui/material";
+import { Menu } from "@mui/icons-material";
+import { Button, IconButton } from "@mui/material";
 
 const AuthNavbar = ({
   openNewProject,
@@ -13,13 +14,21 @@ const AuthNavbar = ({
   fieldFour,
   setFieldFour,
   setProjectReady,
+  activeMobileSidebar,
+  setActiveMobileSidebar,
 }) => {
   return (
     <div className="bg-[#001336] w-full min-h-[50px]">
       <div className="flex items-center justify-between 800px:justify-end md:justify-end lg:justify-end xl:justify-end">
-        <div className="mx-2 block 800px:hidden md:hidden lg:hidden xl:hidden">
+        <div className="mx-2 flex items-center 800px:hidden md:hidden lg:hidden xl:hidden">
+          <IconButton onClick={() => {
+            setActiveMobileSidebar(!activeMobileSidebar);
+          }}>
+            <Menu className="text-orange-500" />
+          </IconButton>
           <img src="/images/logo.png" alt="logo" className="w-[160px]" />
         </div>
+
         <div className="flex items-center justify-end p-4">
           <div className="mx-2">
             <Button

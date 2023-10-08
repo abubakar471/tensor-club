@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import SearchIcon from '@mui/icons-material/Search';
-import ManageSearchIcon from '@mui/icons-material/ManageSearch';
-import SidebarRecentCard from "../Card/SidebarRecentCard"
+import SearchIcon from "@mui/icons-material/Search";
+import ManageSearchIcon from "@mui/icons-material/ManageSearch";
+import SidebarRecentCard from "../Card/SidebarRecentCard";
 
 const Sidebar = () => {
   return (
@@ -30,7 +30,16 @@ const Sidebar = () => {
       </div>
 
       <div>
-        <h1 className="text-gray-300  text-sm"># Recent Activiy</h1>
+        <div className="text-gray-300  text-sm flex items-center mb-2">
+          <div className="">
+            <img
+              src="/images/bulb.gif"
+              alt=""
+              className="w-[25px] h-[25px] object-contain"
+            />
+          </div>
+          <p className="ml-2"> Recent Activiy</p>
+        </div>
         <div className="mt-4">
           <SidebarRecentCard />
           <SidebarRecentCard />

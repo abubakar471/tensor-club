@@ -2,6 +2,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import DashboardContent from "../../components/Dashboard/DashboardContent";
 import { useState } from "react";
 import axios from "axios";
+import MobileSidebar from "../../components/Sidebar/MobileSidebar";
 
 const Dashboard = () => {
   const [openNewProject, setOpenNewProject] = useState(false);
@@ -14,6 +15,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState("");
   const [currentProject, setCurrentProject] = useState(null);
+  const [activeMobileSidebar, setActiveMobileSidebar] = useState(false);
 
   const handleBack = () => {
     if (activeField > 1 && !projectReady) {
@@ -60,7 +62,6 @@ const Dashboard = () => {
         setFieldThree("");
         setFieldFour("");
         setOpenNewProject(false);
-        
       }
     } catch (err) {
       console.log(err);
@@ -88,6 +89,12 @@ const Dashboard = () => {
             <Sidebar />
           </div>
           <div className="w-full 800px:w-3/4 md:w-3/4 lg:w-3/4 xl:w-3/4 h-screen">
+            {activeMobileSidebar && (
+              <MobileSidebar
+                activeMobileSidebar={activeMobileSidebar}
+                setActiveMobileSidebar={setActiveMobileSidebar}
+              />
+            )}
             <DashboardContent
               activeField={activeField}
               handleBack={handleBack}
@@ -108,6 +115,8 @@ const Dashboard = () => {
               handleSubmit={handleSubmit}
               loading={loading}
               loadingMessage={loadingMessage}
+              activeMobileSidebar={activeMobileSidebar}
+              setActiveMobileSidebar={setActiveMobileSidebar}
             />
           </div>
         </div>
