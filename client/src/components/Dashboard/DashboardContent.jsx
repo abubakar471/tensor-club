@@ -30,7 +30,7 @@ const DashboardContent = ({
 }) => {
   return (
     <div className="w-full ">
-     <div className="h-[10vh]">
+     <div>
      <AuthNavbar
         openNewProject={openNewProject}
         setOpenNewProject={setOpenNewProject}
@@ -50,7 +50,7 @@ const DashboardContent = ({
      </div>
 
       <div className="  h-screen px-0 800px:px-4 md:px-4 lg:px-4 xl:px-4 flex flex-col">
-        <div className="flex-grow h-[60vh] overflow-y-auto w-full bg-gradient-to-b from-[#001336] to-[#071838] cats p-4">
+        <div className="h-[70%] overflow-y-auto w-full bg-gradient-to-b from-[#001336] to-[#071838] cats p-4">
           <div className="text-white text-xl font-semibold">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
             veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
@@ -128,7 +128,7 @@ const DashboardContent = ({
 
         <hr className="my-2" />
 
-        <div className="h-[20vh] bg-gradient-to-b from-[#001336] to-[#071838]">
+        <div className="h-[30%] bg-gradient-to-b from-[#001336] to-[#071838]">
           <div className="px-2">
             <div>
               <h1 className="text-white my-2 text-sm font-mono">
