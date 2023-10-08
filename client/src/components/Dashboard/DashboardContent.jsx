@@ -142,7 +142,7 @@ const DashboardContent = ({
               Download
             </button>
 
-            <div className="absolute bottom-24 800px:bottom-6 md:bottom-6 lg:bottom-6 xl:bottom-6 right-2">
+            <div className="absolute bottom-16 800px:bottom-6 md:bottom-6 lg:bottom-6 xl:bottom-6 right-2">
               <img
                 src="/images/robot.gif"
                 alt="robot"
