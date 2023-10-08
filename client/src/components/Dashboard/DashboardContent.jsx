@@ -138,7 +138,7 @@ const DashboardContent = ({
               </h1>
             </div>
 
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between gap-y-2">
               <button className="p-2 rounded-full flex items-center text-white bg-gradient-to-b from-[#204a88] to-gray-500">
                 <ArrowDownward className="text-blue-300 font-extrabold" />{" "}
                 Download
@@ -147,7 +147,7 @@ const DashboardContent = ({
                 src="/images/robot.gif"
                 alt="robot"
                 loading="lazy"
-                className="w-[90px] h-[90px] object-contain"
+                className="w-[90px] h-[90px] object-contain py-2"
               />
             </div>
 
