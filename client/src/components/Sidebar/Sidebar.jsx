@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SearchIcon from '@mui/icons-material/Search';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
+import SidebarRecentCard from "../Card/SidebarRecentCard"
 
 const Sidebar = () => {
   return (
@@ -26,6 +27,16 @@ const Sidebar = () => {
           }}
         />
         <ManageSearchIcon className="absolute top-1 right-2 text-[#da288ad5]" />
+      </div>
+
+      <div>
+        <h1 className="text-gray-300  text-sm"># Recent Activiy</h1>
+        <div className="mt-4">
+          <SidebarRecentCard />
+          <SidebarRecentCard />
+          <SidebarRecentCard />
+          <SidebarRecentCard />
+        </div>
       </div>
     </div>
   );
