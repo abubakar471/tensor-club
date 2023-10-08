@@ -30,27 +30,27 @@ const DashboardContent = ({
 }) => {
   return (
     <div className="w-full ">
-     <div>
-     <AuthNavbar
-        openNewProject={openNewProject}
-        setOpenNewProject={setOpenNewProject}
-        activeField={activeField}
-        fieldOne={fieldOne}
-        setFieldOne={setFieldOne}
-        fieldTwo={fieldTwo}
-        setFieldTwo={setFieldTwo}
-        fieldThree={fieldThree}
-        setFieldThree={setFieldThree}
-        fieldFour={fieldFour}
-        setFieldFour={setFieldFour}
-        setProjectReady={setProjectReady}
-        activeMobileSidebar={activeMobileSidebar}
-        setActiveMobileSidebar={setActiveMobileSidebar}
-      />
-     </div>
+      <div>
+        <AuthNavbar
+          openNewProject={openNewProject}
+          setOpenNewProject={setOpenNewProject}
+          activeField={activeField}
+          fieldOne={fieldOne}
+          setFieldOne={setFieldOne}
+          fieldTwo={fieldTwo}
+          setFieldTwo={setFieldTwo}
+          fieldThree={fieldThree}
+          setFieldThree={setFieldThree}
+          fieldFour={fieldFour}
+          setFieldFour={setFieldFour}
+          setProjectReady={setProjectReady}
+          activeMobileSidebar={activeMobileSidebar}
+          setActiveMobileSidebar={setActiveMobileSidebar}
+        />
+      </div>
 
       <div className="  h-screen px-0 800px:px-4 md:px-4 lg:px-4 xl:px-4 flex flex-col">
-        <div className="h-[70%] overflow-y-auto w-full bg-gradient-to-b from-[#001336] to-[#071838] cats p-4">
+        <div className="h-[70%] 800px:h-[80%] md:h-[80%] lg:h-[80%] xl:h-[80%]  overflow-y-auto w-full bg-gradient-to-b from-[#001336] to-[#071838] cats p-4">
           <div className="text-white text-xl font-semibold">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
             veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
@@ -128,7 +128,7 @@ const DashboardContent = ({
 
         <hr className="my-2" />
 
-        <div className="h-[30%] bg-gradient-to-b from-[#001336] to-[#071838]">
+        <div className="h-[30%] 800px:h-[20%] md:h-[20%] lg:h-[20%] xl:h-[20%] bg-gradient-to-b from-[#001336] to-[#071838]">
           <div className="px-2">
             <div>
               <h1 className="text-white my-2 text-sm font-mono">
