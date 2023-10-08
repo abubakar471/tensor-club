@@ -44,8 +44,83 @@ const DashboardContent = ({
       />
 
       <div className="  h-screen px-0 800px:px-4 md:px-4 lg:px-4 xl:px-4 flex flex-col">
-        <div className="opacity-70 h-[80%] w-full bg-gradient-to-b from-[#001336] to-[#071838]">
-          {/* all genereated contents are going to be in here */}
+        <div className="opacity-95 h-[80%] overflow-y-auto w-full bg-gradient-to-b from-[#001336] to-[#071838] cats p-4">
+          <div className="text-white text-xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?   <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?  <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+
+            <br />
+            <br />
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et earum
+            veritatis magni explicabo ipsa nam minus, odit obcaecati molestias
+            eos totam beatae fugiat delectus exercitationem fugit doloremque
+            consequatur! Officia, nostrum?
+            <br />
+            <br />
+
+          </div>
         </div>
 
         <hr className="my-2" />
