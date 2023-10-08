@@ -126,23 +126,23 @@ const DashboardContent = ({
           </div>
         </div>
 
-        <div className="bg-gradient-to-b from-[#001336] to-[#071838] w-full"> 
+        <div className="bg-gradient-to-b from-[#001336] to-[#071838] w-full">
           <hr className="my-2" />
         </div>
 
         <div className="h-[30%] 800px:h-[20%] md:h-[20%] lg:h-[20%] xl:h-[20%] bg-gradient-to-b from-[#001336] to-[#071838]">
           <div className="px-2">
             <div>
-              <h1 className="text-white my-2 text-sm font-mono">
+              <h1 className="text-white my-0 text-sm font-mono">
                 # output files
               </h1>
             </div>
-            <button className="p-2 rounded-full flex items-center text-white bg-gradient-to-b from-[#204a88] to-gray-500">
-              <ArrowDownward className="text-blue-300 font-extrabold" />{" "}
-              Download
-            </button>
 
-            <div className="absolute bottom-16 800px:bottom-6 md:bottom-6 lg:bottom-6 xl:bottom-6 right-2">
+            <div className="flex items-center justify-between">
+              <button className="p-2 rounded-full flex items-center text-white bg-gradient-to-b from-[#204a88] to-gray-500">
+                <ArrowDownward className="text-blue-300 font-extrabold" />{" "}
+                Download
+              </button>
               <img
                 src="/images/robot.gif"
                 alt="robot"
@@ -150,6 +150,15 @@ const DashboardContent = ({
                 className="w-[90px] h-[90px] object-contain"
               />
             </div>
+
+            {/* <div className="absolute bottom-16 800px:bottom-6 md:bottom-6 lg:bottom-6 xl:bottom-6 right-2">
+              <img
+                src="/images/robot.gif"
+                alt="robot"
+                loading="lazy"
+                className="w-[90px] h-[90px] object-contain"
+              />
+            </div> */}
           </div>
         </div>
       </div>
